@@ -80,10 +80,14 @@ Run `pip install tqdm librosa pretty_midi`
     * This will take some time to install. Approximately 10-15 minutes depending on system.    
     
 2. Reset *bashrc* by running `source ~/.bashrc`  
-<br>
+<br>  
+
 PyTorch should now be installed within the Conda environment.  
-<br>
+
+<br>  
+
 Confirm this by ensuring you are within the Conda environment by `source activate cuda`  
+
 3. Run `python` which will bring up the Python interpreter  
 <br>
 4. Run the followng;  
