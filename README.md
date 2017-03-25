@@ -42,7 +42,7 @@ Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to 
 <br>
 NVIDIA/CUDA should be running correctly now, even after system reboot
 <br>
-12. Update the OS & Packages by running `sudo apt-get update`  
+12. Update the OS & Packages by running `sudo apt-get update`    
 <br>
 13. Reset .bashrc by running `source ~/.bashrc`  
 <br>
