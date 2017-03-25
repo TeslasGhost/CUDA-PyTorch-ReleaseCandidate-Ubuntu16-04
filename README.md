@@ -33,7 +33,15 @@ Release Candidate PyTorch built from source for CUDA 8.0 on Ubuntu 16.04 for AWS
 8. We need to create a file at location */etc/modprobe.d/blacklist-nouveau.conf*  
 Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to the file  
 <br>
-![](images/nano-blacklist-nouveau.jpg?raw=true)
+![](images/nano-blacklist-nouveau.jpg?raw=true)  
+9. Regenerate the initramfs kernel by running `sudo update-initramfs -u`  
+10. Reboot the instance `sudo reboot`  
+11. SSH back into instance and run `nvidia-smi`  
+<br>
+NVIDIA/CUDA should be running correctly now, even after system reboot  
+12. Update the OS & Packages by running `sudo apt-get update`  
+13. Reset .bashrc by running `source ~/.bashrc`  
+Installation complete! :)
 
 
 
