@@ -90,7 +90,8 @@ Confirm this by ensuring you are within the Conda environment by `source activat
 
 3. Run `python` which will bring up the Python interpreter  
 <br>
-4. Run the followng;  
+4. Run the following;  
+
     * `import torch`  
     * `torch.randn(5, 10).cuda()`
 <br>  
