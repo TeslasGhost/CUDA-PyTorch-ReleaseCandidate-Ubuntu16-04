@@ -66,5 +66,5 @@ Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to 
 Run `conda create -n cuda python=3.6 anaconda numpy scipy matplotlib`  
 <br>  
 
-![](images/git-conda-create1.jpg?raw=true)
+![](images/git-conda-create.jpg?raw=true)
 
