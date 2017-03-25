@@ -15,7 +15,14 @@ Release Candidate PyTorch built from source for CUDA 8.0 on Ubuntu 16.04 for AWS
 
 ![](images/git-cuda-nvidiasmi-blur.jpg?raw=true)  
 <br>
+5. Reboot system by running `sudo reboot`  
+6. SSH back into instance & confirm that nvidia-smi is *not* running  
 <br>
+![](images/git-cuda-nvidiasmi--notworking-blur.jpg?raw=true)
+<br>
+*Nouveau* is a free open source software driver for NVIDIA GPU cards. This driver will mess with the CUDA installation, so we need to remove it. 
+
+
 
 ## Python
 
