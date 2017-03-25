@@ -56,7 +56,7 @@ Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to 
 ## Python
 
 1. Run `./install-python.sh` & follow the prompts  
-    * `Accept License`  
+    * Accept `License`  
     * Say `Yes` to default install path  
     * Say `Yes` to prepend install path to .bashrc  
 
