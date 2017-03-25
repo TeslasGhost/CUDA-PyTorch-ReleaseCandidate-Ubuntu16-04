@@ -30,9 +30,10 @@ Release Candidate PyTorch built from source for CUDA 8.0 on Ubuntu 16.04 for AWS
 ![](images/git-lsmod-grep.jpg?raw=true)
 <br>
 <br>
-8. We need to create a file at location */etc/modprobe.d/blacklist-nouveau.conf* Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to the file  
+8. We need to create a file at location */etc/modprobe.d/blacklist-nouveau.conf*  
+Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to the file  
 <br>
-
+![](images/nano-blacklist-nouveau.jpg?raw=true)
 
 
 
