@@ -36,9 +36,11 @@ Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to 
 ![](images/nano-blacklist-nouveau.jpg?raw=true)  
 9. Regenerate the initramfs kernel by running `sudo update-initramfs -u`
 <br>
-10. Reboot the instance `sudo reboot`
+10. Reboot the instance `sudo reboot`  
+
 <br>
 11. SSH back into instance and run `nvidia-smi`  
+
 <br>
 NVIDIA/CUDA should be running correctly now, even after system reboot  
 <br>
