@@ -88,7 +88,6 @@ We will now download the latest beta/Release Candidate/Bleeding Edge source from
 *PyTorch should now be installed within the Conda environment*  
 
 <br>  
-
 Confirm this by ensuring you are within the Conda environment by `source activate cuda`  
 
 3. Run `python` which will bring up the Python interpreter  
@@ -99,6 +98,7 @@ Confirm this by ensuring you are within the Conda environment by `source activat
     * torch.randn(5, 10).cuda()
 <br>  
 
-You should have no errors whilst invoking CUDA through PyTorch
+You should have no errors whilst invoking CUDA through PyTorch  
+<br>
 
 
