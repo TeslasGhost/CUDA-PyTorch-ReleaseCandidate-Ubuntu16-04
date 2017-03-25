@@ -74,7 +74,10 @@ Run `conda create -n cuda python=3.6 anaconda numpy scipy matplotlib`
 Run `pip install tqdm librosa pretty_midi`  
 <br>
 <br>
-## PyTorch
+## PyTorch  
+<br>
+We will now download the latest beta/Release Candidate/Bleeding Edge source from PyTorch and build it  
+<br>
 
 1. Run `./install-pytorch.sh`  
     * This will take some time to install. Approximately 10-15 minutes depending on system.    
