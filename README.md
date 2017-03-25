@@ -92,8 +92,8 @@ Confirm this by ensuring you are within the Conda environment by `source activat
 <br>
 4. Run the following;  
 
-    * `import torch`  
-    * `torch.randn(5, 10).cuda()`
+    * import torch  
+    * torch.randn(5, 10).cuda()
 <br>  
 
 You should have no errors whilst invoking CUDA through PyTorch
