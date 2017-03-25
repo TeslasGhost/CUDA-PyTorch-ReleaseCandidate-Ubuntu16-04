@@ -80,7 +80,7 @@ We will now download the latest beta/Release Candidate/Bleeding Edge source from
 <br>
 
 1. Run `./install-pytorch.sh`  
-    * This will take some time to install. Approximately 10-15 minutes depending on system.    
+    * This will take some time to build from source. Approximately 10-15 minutes depending on system.    
     
 2. Reset *bashrc* by running `source ~/.bashrc`  
 <br>  
