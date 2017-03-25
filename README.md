@@ -81,5 +81,15 @@ Run `pip install tqdm librosa pretty_midi`
     
 2. Reset *bashrc* by running `source ~/.bashrc`  
 <br>
+PyTorch should now be installed within the Conda environment.  
+<br>
+Confirm this by ensuring you are within the Conda environment by `source activate cuda`  
+3. Run `python` which will bring up the Python interpreter  
+<br>
+4. Run the followng;  
+    * `import torch`  
+    * `torch.randn(5, 10).cuda()`
+<br>
+You should have no errors whilst invoking CUDA through PyTorch
 
 
