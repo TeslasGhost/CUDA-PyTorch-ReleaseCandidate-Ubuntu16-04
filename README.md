@@ -55,3 +55,12 @@ Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to 
 
 ## Python
 
+1. Run `./install-python.sh` & follow the prompts  
+    * `Accept License`  
+    * Say `Yes` to default install path  
+    * Say `Yes` to prepend install path to .bashrc  
+
+2. Refresh .bashrc by running `source ~/.bashrc`  
+
+3. Create Conda Environment & Install Scientific Compute Dependencies 
+Run `conda create -n cuda python=3.6 anaconda numpy scipy matplotlib`
