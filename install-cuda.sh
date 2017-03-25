@@ -3,7 +3,7 @@
 # Download the CUDNN Release Candidate 
 wget http://developer.download.nvidia.com/compute/redist/cudnn/v6.0/cudnn-8.0-linux-x64-v6.0-rc.tgz
 
-cd CUDA-PyTorch-ReleaseCandidate-Ubuntu16-04
+#cd CUDA-PyTorch-ReleaseCandidate-Ubuntu16-04
 sudo chmod +x cudnn-8.0-linux-x64-v6.0-rc.tgz
 
 # Update the system
