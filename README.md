@@ -78,6 +78,9 @@ Run `pip install tqdm librosa pretty_midi`
 
 1. Run `./install-pytorch.sh`  
 <br>
-2. 
+This will take some time to install. Approximately 10-15 minutes depending on system.  
+<br>
+2. Reset *.bashrc* by running `source ~/.bashrc`  
+<br>
 
 
