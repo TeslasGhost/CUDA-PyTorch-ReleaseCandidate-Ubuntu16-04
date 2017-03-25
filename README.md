@@ -14,7 +14,9 @@ Release Candidate PyTorch built from source for CUDA 8.0 on Ubuntu 16.04 for AWS
 4. Check that NVIDIA CUDA installed correctly by running `nvidia-smi`  
   
   
-![](images/git-cuda-nvidiasmi-blur.jpg?raw=true)
+![](images/git-cuda-nvidiasmi-blur.jpg?raw=true)  
+<br>
+<br>
 
 ## Python
 
