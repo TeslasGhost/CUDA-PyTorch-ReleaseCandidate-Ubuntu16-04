@@ -73,5 +73,11 @@ Run `conda create -n cuda python=3.6 anaconda numpy scipy matplotlib`
 5. ***Optionally***, you may install some cool audio dependencies within Conda  
 Run `pip install tqdm librosa pretty_midi`  
 <br>
+<br>
+## PyTorch
+
+1. Run `./install-pytorch.sh`  
+<br>
+2. 
 
 
