@@ -66,5 +66,12 @@ Run `sudo nano /etc/modprobe.d/blacklist-nouveau.conf` and add the following to 
 Run `conda create -n cuda python=3.6 anaconda numpy scipy matplotlib`  
 <br>  
 
-![](images/git-conda-create.jpg?raw=true)
+![](images/git-conda-create.jpg?raw=true)  
+<br>
+4. Run `source activate cuda` to enter Conda environment  
+<br>
+5. ***Optionally***, you may install some cool audio dependencies within Conda  
+Run `pip install tqdm librosa pretty_midi`  
+<br>
+
 
