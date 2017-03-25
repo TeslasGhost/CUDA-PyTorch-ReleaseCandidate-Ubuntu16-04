@@ -9,7 +9,7 @@ sudo chmod +x cudnn-8.0-linux-x64-v6.0-rc.tgz
 # Update the system
 sudo apt-get update
 sudo apt-get install build-essential
-sudo apt-get install linux-image-extra-`unname -r`
+sudo apt-get install linux-image-extra-`uname -r`
 
 # Get the NVIDIA Driver
 wget http://us.download.nvidia.com/XFree86/Linux-x86_64/367.57/NVIDIA-Linux-x86_64-367.57.run -O nvidia_driver.run
