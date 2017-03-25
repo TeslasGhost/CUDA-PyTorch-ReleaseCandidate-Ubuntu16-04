@@ -17,4 +17,5 @@ bash conda_install.sh
 
 echo -e "\e[96mCreating Conda Environment & Installing Scientific Compute Dependencies"
 echo -e "\e[97m"
+source ~/.bashrc
 conda create -n cuda python=3.6 anaconda numpy scipy matplotlib
