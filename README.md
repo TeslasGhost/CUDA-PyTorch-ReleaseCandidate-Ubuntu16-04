@@ -97,7 +97,9 @@ Confirm this by ensuring you are within the Conda environment by `source activat
     * import torch  
     * torch.randn(5, 10).cuda()
 <br>  
+
 ![](images/git-torch-cuda.jpg?raw=true)  
+
 <br>
 
 You should have no errors whilst invoking CUDA through PyTorch  
